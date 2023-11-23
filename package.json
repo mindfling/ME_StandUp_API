@@ -1,0 +1,19 @@
+{
+  "name": "me_standup_api",
+  "version": "1.0.0",
+  "description": "server API for StandUp application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mindfling/ME_StandUp_API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mindfling/ME_StandUp_API/issues"
+  },
+  "homepage": "https://github.com/mindfling/ME_StandUp_API#readme"
+}
