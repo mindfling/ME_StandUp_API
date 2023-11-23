@@ -12,11 +12,13 @@ fs.readFile(FILE_PATH, 'utf-8', (err, data) => {
 http
   .createServer((req, res) => {
     res.writeHead(200, {
-      "Content-Type": "text/plain; charset=utf-8",
+      "Content-Type": "text/html; charset=utf-8",
       "Access-Control-Allow-Origin": "*",
     });
-    res.end('Hello Server');
+    res.end('<h1>Hello Server</h1><p>our file...</p>');
   }
     
   )
   .listen(PORT);
+  
+console.log('Сервер запущен на порту', PORT);
