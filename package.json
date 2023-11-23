@@ -4,16 +4,21 @@
   "description": "server API for StandUp application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon index.js",
+    "test": "echo \"THis is no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mindfling/ME_StandUp_API.git"
   },
-  "author": "",
+  "author": "Dim MindFling <dimfreelancerdn@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mindfling/ME_StandUp_API/issues"
   },
-  "homepage": "https://github.com/mindfling/ME_StandUp_API#readme"
+  "homepage": "https://github.com/mindfling/ME_StandUp_API#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
