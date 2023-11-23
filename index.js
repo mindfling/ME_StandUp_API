@@ -1,9 +1,13 @@
 import http from 'node:http'
+import fs from 'node:fs'
 
 const hello = 'Hello Node';
 const PORT = 8080;
+const FILE_PATH = 'comedians.json';
 
-console.log(hello);
+fs.readFile(FILE_PATH, 'utf-8', (err, data) => {
+  console.log(data);
+})
 
 http
   .createServer((req, res) => {
