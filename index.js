@@ -1,6 +1,9 @@
-const http = require('node:http');
+import http from 'node:http'
 
 const hello = 'Hello Node';
 console.log(hello);
-console.log('http: ', http);
 
+http
+  .createServer()
+  .listen(8080);
+  

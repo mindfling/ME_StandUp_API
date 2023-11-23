@@ -8,6 +8,7 @@
     "dev": "nodemon index.js",
     "test": "echo \"THis is no test specified\" && exit 1"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mindfling/ME_StandUp_API.git"
